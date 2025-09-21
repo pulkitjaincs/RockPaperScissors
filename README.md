@@ -8,7 +8,7 @@
 
 ## 🚀 Live Demo
 
-[![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github&logoColor=white)](https://yourusername.github.io/RockPaper/)
+[![Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge&logo=github&logoColor=white)](https://pulkitjaincs.github.io/RockPaperScissors/)
 
 ## ✨ Key Features
 
@@ -95,10 +95,6 @@ Simply host the files on any static web server or open `index.html` locally in a
 
 Contributions are welcome! Please fork the repository and submit pull requests.
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 👨‍💻 Author
 
 **Pulkit Jain**  
@@ -112,8 +108,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repository if you found it helpful!**
 
-[![GitHub stars](https://img.shields.io/github/stars/pulkitjaincs/RockPaper?style=social)](https://github.com/pulkitjaincs/RockPaper/stargazers)  
-[![GitHub forks](https://img.shields.io/github/forks/pulkitjaincs/RockPaper?style=social)](https://github.com/pulkitjaincs/RockPaper/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/pulkitjaincs/RockPaperScissors?style=social)](https://github.com/pulkitjaincs/RockPaperScissors/stargazers)  
+[![GitHub forks](https://img.shields.io/github/forks/pulkitjaincs/RockPaperScissors?style=social)](https://github.com/pulkitjaincs/RockPaperScissors/network/members)
 
 *Built with ❤️ using HTML, CSS, and JavaScript*
 
