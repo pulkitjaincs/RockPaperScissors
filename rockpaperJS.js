@@ -8,24 +8,28 @@ const genCompChoice= ()=>{
     return options[idx];
 }
 const showWinner=(userWin, userChoice, compChoice) =>{
+    const msgContainer = document.querySelector(".msg-container");
+    msgContainer.classList.remove("win", "lose", "draw");
     if(userWin){
         userScore++;
         document.querySelector("#user-score").innerText = userScore;
         msg.innerText = `You Won! Your ${userChoice} beats ${compChoice}`;
         console.log("User won!");
-        msg.style.backgroundColor = "green";
+        msgContainer.classList.add("win");
     }else{
         compScore++;
         msg.innerText = `You Lost! ${compChoice} beats ${userChoice}`;
         document.querySelector("#comp-score").innerText = compScore;
         console.log("Computer Won!");
-        msg.style.backgroundColor = "red";
+        msgContainer.classList.add("lose");
     }
 }
 const drawGame = () =>{
+    const msgContainer = document.querySelector(".msg-container");
+    msgContainer.classList.remove("win", "lose", "draw");
     msg.innerText = `Game is Draw! Play Again`;
     console.log("the Game is draw");
-    msg.style.backgroundColor = "black";
+    msgContainer.classList.add("draw");
 }
 const playGame = (userChoice)=>{
     const compChoice= genCompChoice();
